@@ -1,0 +1,45 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+/*Зроби цей сайт красивим 😉*/
+img {
+    width: 210px;
+    height: 210px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #B4693A;
+    color: #FCB045;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+footer{
+    background-color: #B4693A;
+    color: #FCB045;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 4px solid #B4693A;
+}
